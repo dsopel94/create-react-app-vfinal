@@ -13,7 +13,7 @@
 
 # Start in tasks/ even if run from root directory
 cd "$(dirname "$0")"
-
+#
 # CLI and app temporary locations
 # http://unix.stackexchange.com/a/84980
 temp_cli_path=`mktemp -d 2>/dev/null || mktemp -d -t 'temp_cli_path'`
