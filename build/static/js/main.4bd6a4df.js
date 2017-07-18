@@ -6969,7 +6969,7 @@
 
     function r() {
         "serviceWorker" in navigator && window.addEventListener("load", function() {
-            navigator.serviceWorker.register("/create-react-app-vfinal/build/service-worker.js").then(function(e) {
+            navigator.serviceWorker.register('/create-react-app-vfinal/build/service-worker.js').then(function(e) {
                 e.onupdatefound = function() {
                     var t = e.installing;
                     t.onstatechange = function() {
